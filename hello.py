@@ -17,5 +17,5 @@ def hello(n):
 def fraction(n):
     for i in range(1,n+1):
         print(float(1/i))
-    
+
 fraction(5)
