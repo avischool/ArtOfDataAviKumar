@@ -1,7 +1,7 @@
 def count(biglist):
     finaldict = {}
-    for i in biglist:
-        if i not in finaldict:
+    for element in biglist:
+        if element not in finaldict:
             finaldict[i] = 1
         else:
             finaldict[i] += 1
