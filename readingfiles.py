@@ -1,0 +1,1 @@
+with open("favorite_colors.csv", "r") as f:  print(f) 
