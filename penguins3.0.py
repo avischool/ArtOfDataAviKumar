@@ -4,7 +4,7 @@ Assignment: Reading File Practice
 
 """
 
-mport csv
+import csv
 
 #This function creates a dictionary called finaldict. {speciesname: {characteristic: []}, speciesname: {characteristic[]}}
 def findinfo(characteristic):
