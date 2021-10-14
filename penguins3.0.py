@@ -22,7 +22,9 @@ def findinfo(characteristic):
     return finaldict
 
 
-def getaverage(trait):
+#This function provides an answer to question 1 and 2. It uses finaldict from our first fucntion, finds the average of
+#each trait (that is made up of numbers), and spits out the largest average
+def largestaverage(trait):
     finaldict = findinfo(trait)   
     
     listoflengths = []
@@ -40,6 +42,8 @@ def getaverage(trait):
             biggest = key
     
     return biggest
+
+
     
 def getcount(penguin,trait,spectrait):
     finaldict = findinfo(trait)
@@ -48,7 +52,7 @@ def getcount(penguin,trait,spectrait):
             
 
 
-print(getaverage('bill_length_mm'))
-print(getaverage('body_mass_g'))
+print(largestaverage('bill_length_mm'))
+print(largestaverage('body_mass_g'))
 print(getcount('Chinstrap','island','Dream'))
 
