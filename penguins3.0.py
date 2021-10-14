@@ -1,5 +1,12 @@
-import csv
+"""
+Name: Avi Kumar
+Assignment: Reading File Practice
 
+"""
+
+mport csv
+
+#This function creates a dictionary called finaldict. {speciesname: {characteristic: []}, speciesname: {characteristic[]}}
 def findinfo(characteristic):
     with open("penguins.csv", "r") as f:
         data = csv.DictReader(f)
@@ -32,7 +39,16 @@ def getaverage(trait):
         if max(listoflengths) == finallength/numoflengths:
             biggest = key
     
-    return listoflengths
-        
+    return biggest
+    
+def getcount(penguin,trait,spectrait):
+    finaldict = findinfo(trait)
+    foo = finaldict[penguin]['lengths']
+    return foo.count(spectrait)
+            
 
-print(getanswer('bill_length_mm'))
+
+print(getaverage('bill_length_mm'))
+print(getaverage('body_mass_g'))
+print(getcount('Chinstrap','island','Dream'))
+
