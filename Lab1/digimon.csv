@@ -4,7 +4,7 @@ Number,Digimon,Stage,Type,Attribute,Memory,Equip Slots,HP,SP,Atk,Def,Int,Spd
 3,Punimon,Baby,Free,Neutral,2,0,870,50,97,87,50,75
 4,Botamon,Baby,Free,Neutral,2,0,690,68,77,95,76,61
 5,Poyomon,Baby,Free,Neutral,2,0,540,98,54,59,95,86
-6,Koromon,In-Training,Free,Fire,3,0,940,52,109,93,52,76
+6,Koromon,In-Training,Free,Fire,3,0,940,52,109,93,52,76 
 7,Tanemon,In-Training,Free,Plant,3,0,1030,64,85,82,73,69
 8,Tsunomon,In-Training,Free,Earth,3,0,930,54,107,92,54,76
 9,Tsumemon,In-Training,Free,Dark,3,0,930,64,108,64,54,93
