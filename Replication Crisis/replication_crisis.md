@@ -1,5 +1,7 @@
 # Replication Crisis
 
+---
+
 The replication crisis is a major issue occurring in scientific fields.
 
 ## Background
@@ -26,6 +28,7 @@ The replication crisis is a major issue occurring in scientific fields.
 We will watch [this video](https://www.youtube.com/watch?v=42QuXLucH3Q) in class.
 
 1. What is the replication crisis?
+
 2. What are some issues with current scientific research?
 3. What is **publish or perish**?
 4. What is **p-hacking**?
